@@ -20,4 +20,20 @@ Takes any value as an argument and returns a boolean result depending on whether
 
 Takes in no arguments and returns a string representing all the values in the Linked List, formatted as "{ a } -> { b } -> { c } -> NULL"
 
+**append()**
+
+Add a new value to the end of the list
+
+**insertBefore()**
+
+Add a new value to the linked list with the given newValue immediately before the first given value
+
+**insertAfter()**
+
+Add a new value to the linked list with the given newValue immediately after the first given value
+
 ### Whiteboard Images
+
+**Whiteboard for append(), insertBefore(), and insertAfter()**
+
+![White Board for append, insertBefore and insertAfter](../assets/LinkedListChallenge2.jpeg)

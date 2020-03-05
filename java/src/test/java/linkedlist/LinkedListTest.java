@@ -24,7 +24,6 @@ public class LinkedListTest{
         );
     }
 
-
     @Test
     public void returnTrueIfExists(){
         assertEquals(
