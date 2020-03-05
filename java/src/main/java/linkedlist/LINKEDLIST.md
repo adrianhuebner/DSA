@@ -32,8 +32,16 @@ Add a new value to the linked list with the given newValue immediately before th
 
 Add a new value to the linked list with the given newValue immediately after the first given value
 
+**kthFromTheEnd()**
+
+Create a method that takes a number 'k' as a parameter, return the node's value that is 'k' from the end of the linked list
+
 ### Whiteboard Images
 
 **Whiteboard for append(), insertBefore(), and insertAfter()**
 
-![White Board for append, insertBefore and insertAfter](../assets/LinkedListChallenge2.jpeg)
+![Whiteboard for append, insertBefore and insertAfter](../assets/LinkedListChallenge2.jpeg)
+
+**Whiteboard for kthFromTheEnd()**
+
+![Whiteboard for kthFromTheEnd](../assets/kthFromTheEnd.jpeg)

@@ -45,7 +45,7 @@ public class LinkedListTest{
     @Test
     public void convertsToString(){
         assertEquals(
-                "The string should look like String Linked List: 30 20 10",
+                "The string should look like String Linked List: 10 20 30",
                 "String Linked List:  10 20 30",
                 newLink.toString()
         );
@@ -85,7 +85,7 @@ public class LinkedListTest{
     public void canAddAfterMiddleNode(){
         newLink.insertAfter(20,25);
         assertEquals(
-                "should be included on the linked list",
+                "Should be included on the linked list",
                 true,
                 newLink.includes(25)
         );
@@ -95,9 +95,56 @@ public class LinkedListTest{
     public void canAddAtTheEnd(){
         newLink.insertAfter(30,35);
         assertEquals(
-                "should be included on the linked list",
+                "Should be included on the linked list",
                 true,
                 newLink.includes(35)
+        );
+    }
+
+    @Test
+    public void kIsInTheMiddle(){
+        assertEquals(
+                "The number found at the 1st position should be 30",
+                30,
+                newLink.kthFromTheEnd(1)
+        );
+    }
+
+    @Test
+    public void kIsTheSameLength(){
+        assertEquals(
+                "The number should return as 10",
+                10,
+                newLink.kthFromTheEnd(3)
+        );
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void kIsLongerThanTest(){
+        assertEquals(
+                "You should receive the illegal argument message because the linked list is shorter than k",
+                "This list isn't long enough",
+                newLink.kthFromTheEnd(4)
+        );
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void kIsNegativeNumber(){
+        assertEquals(
+                "You should receive a illegal argument message because a negative number was used for k",
+                "You can't use a negative number for k",
+                newLink.kthFromTheEnd(-1)
+        );
+    }
+
+    @Test
+    public void kthFromEndWithOnlyOneNode(){
+        LinkedList newList = new LinkedList();
+        newList.insert(1);
+        assertEquals(
+                "You should get 1 back",
+                1,
+                newList.kthFromTheEnd(1)
         );
     }
 }

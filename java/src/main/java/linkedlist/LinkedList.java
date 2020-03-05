@@ -103,4 +103,27 @@ public class LinkedList{
         }
     }
 
+    //  IllegalArgumentException reading and information found on Oracle's website, looked at my code from same challenge in Javascript for inspiration
+    public int kthFromTheEnd(int k) {
+        Node current = head;
+        int counter = 0;
+
+        if(k < 0){
+            throw new IllegalArgumentException("You can't use a negative number for k");
+        }
+
+        while (current != null) {
+            counter++;
+            current = current.next;
+        }
+        if (counter < k) {
+            throw new IllegalArgumentException("This list isn't long enough");
+        }
+        current = head;
+        // for loop came from looking at my Javascript code challenge for the same problem
+        for(int i = 1; i < (counter - k + 1); i++){
+            current = current.next;
+        }
+        return current.data;
+    }
 }
