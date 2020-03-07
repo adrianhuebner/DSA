@@ -36,6 +36,10 @@ Add a new value to the linked list with the given newValue immediately after the
 
 Create a method that takes a number 'k' as a parameter, return the node's value that is 'k' from the end of the linked list
 
+**mergeLists()**
+
+Takes in two linked lists, zip the two linked lists together into one so that the nodes alternate between the two lists
+
 ### Whiteboard Images
 
 **Whiteboard for append(), insertBefore(), and insertAfter()**
@@ -45,3 +49,7 @@ Create a method that takes a number 'k' as a parameter, return the node's value 
 **Whiteboard for kthFromTheEnd()**
 
 ![Whiteboard for kthFromTheEnd](../assets/kthFromTheEnd.jpeg)
+
+**Whiteboard for the mergeList()**
+
+![Whiteboard for mergeList](../assets/mergedList.jpeg)

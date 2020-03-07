@@ -126,4 +126,28 @@ public class LinkedList{
         }
         return current.data;
     }
+
+    // looked at my previous javascript code and watched back to back swe video on this as well to compare the two language differences
+    // also saw how studied how people did this recursively in java
+    public LinkedList mergeLists(LinkedList one, LinkedList two){
+        if(one.head == null){
+            return two;
+        }
+        Node oneCurrent = one.head;
+        Node twoCurrent = two.head;
+
+        while(oneCurrent != null && twoCurrent != null){
+            Node temporaryOne = oneCurrent.next;
+            Node temporaryTwo = twoCurrent.next;
+
+            if(oneCurrent.next != null){
+                twoCurrent.next = oneCurrent.next;
+            }
+
+            oneCurrent.next = twoCurrent;
+            oneCurrent = temporaryOne;
+            twoCurrent = temporaryTwo;
+        }
+        return one;
+    }
 }
