@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2335d90c-5c96-48d8-811b-ce83d316e7fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,33 +67,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LinkedListTest">
+  <component name="RunManager" selected="Gradle.StackTest">
     <configuration name="ArrayReverseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;array.ArrayReverseTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ArrayShiftTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;array.ArrayShiftTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -169,13 +148,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="StackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;stacksandqueues.StackTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StackTest" />
         <item itemvalue="Gradle.LinkedListTest" />
         <item itemvalue="Gradle.LinkedListTest.kIsInTheMiddle" />
         <item itemvalue="Gradle.BinarySearchArrayTest" />
         <item itemvalue="Gradle.ArrayReverseTest" />
-        <item itemvalue="Gradle.ArrayShiftTest" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583541902109</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tests added for mergeList method on LinkedList">
+      <created>1583718702029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583718702030</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Started working on Stacks and Queues, got README updated, got Stack implementation done and all tests are passing for Stack">
+      <created>1583778313678</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583778313678</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,7 +267,9 @@
     <MESSAGE value="Whiteboard image link working" />
     <MESSAGE value="kthFromEnd challenge finished, test written for it, and whitebaord added" />
     <MESSAGE value="merged list method added, got whiteboard image in, just need to add tests later" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged list method added, got whiteboard image in, just need to add tests later" />
+    <MESSAGE value="Tests added for mergeList method on LinkedList" />
+    <MESSAGE value="Started working on Stacks and Queues, got README updated, got Stack implementation done and all tests are passing for Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started working on Stacks and Queues, got README updated, got Stack implementation done and all tests are passing for Stack" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="101" key="#Code_Folding" timestamp="1583436419101">
@@ -269,30 +284,30 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="283" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.826@0.23.1440.826" timestamp="1582953805584" />
-    <state x="409" y="38" key="CommitChangelistDialog2" timestamp="1583541901951">
+    <state x="409" y="38" key="CommitChangelistDialog2" timestamp="1583778313527">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="409" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1583541901951" />
-    <state width="1273" height="244" key="GridCell.Tab.0.bottom" timestamp="1583718609291">
+    <state x="409" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1583778313527" />
+    <state width="1273" height="244" key="GridCell.Tab.0.bottom" timestamp="1583778250803">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583259558930" />
-    <state width="1273" height="244" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583718609291" />
-    <state width="1273" height="244" key="GridCell.Tab.0.center" timestamp="1583718609291">
+    <state width="1273" height="244" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583778250803" />
+    <state width="1273" height="244" key="GridCell.Tab.0.center" timestamp="1583778250802">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583259558929" />
-    <state width="1273" height="244" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1583718609291" />
-    <state width="1273" height="244" key="GridCell.Tab.0.left" timestamp="1583718609290">
+    <state width="1273" height="244" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1583778250802" />
+    <state width="1273" height="244" key="GridCell.Tab.0.left" timestamp="1583778250801">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583259558928" />
-    <state width="1273" height="244" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1583718609290" />
-    <state width="1273" height="244" key="GridCell.Tab.0.right" timestamp="1583718609291">
+    <state width="1273" height="244" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1583778250801" />
+    <state width="1273" height="244" key="GridCell.Tab.0.right" timestamp="1583778250802">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583259558929" />
-    <state width="1273" height="244" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1583718609291" />
+    <state width="1273" height="244" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1583778250802" />
     <state width="1201" height="265" key="GridCell.Tab.1.bottom" timestamp="1583437906031">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -313,10 +328,10 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1582938483946" />
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1583541904083">
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1583778316365">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1583541904083" />
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1583778316365" />
     <state x="483" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1583434914340">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
