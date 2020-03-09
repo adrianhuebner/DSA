@@ -13,3 +13,4 @@ This is code challenges, from school Code Fellows, all written in Java
 [Sorting Challenges](./main/java/sort)  
 [Stacks and Queues Challenges](./main/java/stacksandqueues)  
 [Tree Challenges](./main/java/tree)
+[Utilities Challenges](./main/java/utilities)
