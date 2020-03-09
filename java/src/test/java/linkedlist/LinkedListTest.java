@@ -147,4 +147,44 @@ public class LinkedListTest{
                 newList.kthFromTheEnd(1)
         );
     }
+
+    @Test
+    public void mergeListsEvenLengths(){
+        LinkedList listOne = new LinkedList();
+        LinkedList listTwo = new LinkedList();
+        listOne.insert(1);
+        listOne.append(3);
+        listOne.append(5);
+        listOne.append(7);
+        listTwo.insert(2);
+        listTwo.append(4);
+        listTwo.append(6);
+        listTwo.append(8);
+
+        LinkedList.mergeLists(listOne,listTwo);
+        assertEquals(
+                "Output should be: String Linked List:  1 2 3 4 5 6 7 8",
+                "String Linked List:  1 2 3 4 5 6 7 8",
+                listOne.toString()
+        );
+    }
+
+    @Test
+    public void mergeListsUnevenList(){
+        LinkedList listOne = new LinkedList();
+        LinkedList listTwo = new LinkedList();
+        listOne.insert(1);
+        listOne.append(3);
+        listOne.append(5);
+        listOne.append(7);
+        listTwo.insert(2);
+        listTwo.append(4);
+
+        LinkedList.mergeLists(listOne, listTwo);
+        assertEquals(
+                "Output should be: String Linked List:  1 2 3 4 5 7",
+                "String Linked List:  1 2 3 4 5 7",
+                listOne.toString()
+        );
+    }
 }

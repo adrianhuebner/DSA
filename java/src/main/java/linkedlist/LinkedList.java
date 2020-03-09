@@ -129,7 +129,7 @@ public class LinkedList{
 
     // looked at my previous javascript code and watched back to back swe video on this as well to compare the two language differences
     // also saw how studied how people did this recursively in java
-    public LinkedList mergeLists(LinkedList one, LinkedList two){
+    public static LinkedList mergeLists(LinkedList one, LinkedList two){
         if(one.head == null){
             return two;
         }
