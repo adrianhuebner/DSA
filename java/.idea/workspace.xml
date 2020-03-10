@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2335d90c-5c96-48d8-811b-ce83d316e7fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stacksandqueues/STACKS-AND-QUEUES.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/STACKS-AND-QUEUES.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583796416733</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="README updated with utilities link and AnimalShelter Class set up but no code in there yet">
+      <created>1583798397222</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583798397222</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -293,7 +301,8 @@
     <MESSAGE value="Got methods written for my Queue data-structure, need to finish tests" />
     <MESSAGE value="Queue tests written and all of them are passing" />
     <MESSAGE value="Fixed file structure so the README is on the right level" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed file structure so the README is on the right level" />
+    <MESSAGE value="README updated with utilities link and AnimalShelter Class set up but no code in there yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="README updated with utilities link and AnimalShelter Class set up but no code in there yet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="101" key="#Code_Folding" timestamp="1583436419101">
@@ -308,10 +317,10 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="283" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.826@0.23.1440.826" timestamp="1582953805584" />
-    <state x="241" y="38" key="CommitChangelistDialog2" timestamp="1583798306965">
+    <state x="241" y="38" key="CommitChangelistDialog2" timestamp="1583859121978">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="241" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1583798306965" />
+    <state x="241" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1583859121978" />
     <state width="1221" height="244" key="GridCell.Tab.0.bottom" timestamp="1583796040104">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -352,10 +361,10 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1582938483946" />
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1583796419672">
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1583798398867">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1583796419672" />
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1583798398867" />
     <state x="483" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1583434914340">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
