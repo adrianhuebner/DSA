@@ -9,7 +9,7 @@ This is code challenges, from school Code Fellows and other resources, all writt
 [Array Challenges](./java/src/main/java/array)  
 [Graph Challenges](./java/src/main/java/graph)  
 [Hashtable Challenges](./java/src/main/java/hashtable)  
-[Linked List Challenges](./java/src/main/java/linkedlist) 
+[Linked List Challenges](./java/src/main/java/linkedlist)  
 [Random Online Challenges](./java/src/main/java/random)  
 [Sorting Challenges](./java/src/main/java/sort)  
 [Stacks and Queues Challenges](./java/src/main/java/stacksandqueues)  
