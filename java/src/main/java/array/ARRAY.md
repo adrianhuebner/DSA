@@ -47,3 +47,9 @@
 ### Solution
 
 ![Whiteboard for Binary Search of Array](../assets/BinaryArraySearch.jpeg)
+
+## findMinimumValue
+
+###
+
+- Create a function that takes in an array, goe through the array and returns the minimum value of that array
