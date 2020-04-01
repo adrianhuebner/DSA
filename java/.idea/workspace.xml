@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2335d90c-5c96-48d8-811b-ce83d316e7fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/random/QuickFindUnion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/random/RANDOMQUESTIONS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/findMinimumValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stacksandqueues/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/PseudoQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583859246695</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="PseudoQueue code written">
+      <created>1585440129660</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585440129660</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Array Minimum Value search added and Array based README updated">
+      <created>1585781432908</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585781432908</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -318,7 +330,9 @@
     <MESSAGE value="Fixed file structure so the README is on the right level" />
     <MESSAGE value="README updated with utilities link and AnimalShelter Class set up but no code in there yet" />
     <MESSAGE value="README level updated to the root so it can be seen when repo is clicked on, the README for Stacks and Queues has been updated with all information for PseudoQueue challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="README level updated to the root so it can be seen when repo is clicked on, the README for Stacks and Queues has been updated with all information for PseudoQueue challenge" />
+    <MESSAGE value="PseudoQueue code written" />
+    <MESSAGE value="Array Minimum Value search added and Array based README updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array Minimum Value search added and Array based README updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="101" key="#Code_Folding" timestamp="1583436419101">
@@ -337,10 +351,11 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1583861298990" />
-    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1583859246571">
+    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1585781432736">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="0" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1583859246571" />
+    <state x="0" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1585440129502" />
+    <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781432736" />
     <state width="1221" height="244" key="GridCell.Tab.0.bottom" timestamp="1583796040104">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -381,10 +396,11 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1582938483946" />
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1583859251113">
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1585781434786">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1583859251113" />
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1585440130727" />
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781434786" />
     <state x="483" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1583434914340">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
