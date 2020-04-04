@@ -8,4 +8,5 @@
    - Printing out the list
    - Modifying a single item in the grocery list
    - Deleting an item from the grocery list
+   - Find an item in the grocery list
    

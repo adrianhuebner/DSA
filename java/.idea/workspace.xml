@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2335d90c-5c96-48d8-811b-ce83d316e7fa" name="Default Changelist" comment="Started on ArrayList grocery store challenge">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrayList/GroceryList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrayList/README.md" afterDir="false" />
+    <list default="true" id="2335d90c-5c96-48d8-811b-ce83d316e7fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayList/GroceryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayList/GroceryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayList/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayList/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,26 +68,19 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QueueTest">
-    <configuration name="BinarySearchArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;array.BinarySearchArrayTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayList.Main" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -171,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.QueueTest" />
         <item itemvalue="Gradle.StackTest" />
         <item itemvalue="Gradle.LinkedListTest" />
         <item itemvalue="Gradle.LinkedListTest.kIsInTheMiddle" />
-        <item itemvalue="Gradle.BinarySearchArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585781703988</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Started on ArrayList grocery store challenge">
+      <created>1586038058731</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1586038058731</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -340,7 +340,8 @@
     <MESSAGE value="README level updated to the root so it can be seen when repo is clicked on, the README for Stacks and Queues has been updated with all information for PseudoQueue challenge" />
     <MESSAGE value="PseudoQueue code written" />
     <MESSAGE value="Array Minimum Value search added and Array based README updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Minimum Value search added and Array based README updated" />
+    <MESSAGE value="Started on ArrayList grocery store challenge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started on ArrayList grocery store challenge" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="101" key="#Code_Folding" timestamp="1583436419101">
@@ -359,57 +360,66 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1583861298990" />
-    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1586038033447">
+    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1586038058587">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="0" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1585440129502" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781703875" />
-    <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586038033447" />
-    <state width="1221" height="244" key="GridCell.Tab.0.bottom" timestamp="1583796040104">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586038058587" />
+    <state width="1313" height="339" key="GridCell.Tab.0.bottom" timestamp="1586040168133">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583259558930" />
     <state width="1221" height="244" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583796040104" />
-    <state width="1221" height="244" key="GridCell.Tab.0.center" timestamp="1583796040103">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1313" height="339" key="GridCell.Tab.0.bottom/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586040168133" />
+    <state width="1313" height="339" key="GridCell.Tab.0.center" timestamp="1586040168132">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583259558929" />
     <state width="1221" height="244" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1583796040103" />
-    <state width="1221" height="244" key="GridCell.Tab.0.left" timestamp="1583796040103">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1313" height="339" key="GridCell.Tab.0.center/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586040168132" />
+    <state width="1313" height="339" key="GridCell.Tab.0.left" timestamp="1586040168132">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583259558928" />
     <state width="1221" height="244" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1583796040103" />
-    <state width="1221" height="244" key="GridCell.Tab.0.right" timestamp="1583796040103">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1313" height="339" key="GridCell.Tab.0.left/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586040168132" />
+    <state width="1313" height="339" key="GridCell.Tab.0.right" timestamp="1586040168133">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583259558929" />
     <state width="1221" height="244" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1583796040103" />
-    <state width="1201" height="265" key="GridCell.Tab.1.bottom" timestamp="1583437906031">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1313" height="339" key="GridCell.Tab.0.right/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586040168133" />
+    <state width="1221" height="265" key="GridCell.Tab.1.bottom" timestamp="1586039748936">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1201" height="265" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583437906031" />
-    <state width="1201" height="265" key="GridCell.Tab.1.center" timestamp="1583437906031">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1221" height="265" key="GridCell.Tab.1.bottom/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586039748936" />
+    <state width="1221" height="265" key="GridCell.Tab.1.center" timestamp="1586039748935">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1201" height="265" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1583437906031" />
-    <state width="1201" height="265" key="GridCell.Tab.1.left" timestamp="1583437906031">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1221" height="265" key="GridCell.Tab.1.center/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586039748935" />
+    <state width="1221" height="265" key="GridCell.Tab.1.left" timestamp="1586039748934">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1201" height="265" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1583437906031" />
-    <state width="1201" height="265" key="GridCell.Tab.1.right" timestamp="1583437906031">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="1221" height="265" key="GridCell.Tab.1.left/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586039748934" />
+    <state width="1221" height="265" key="GridCell.Tab.1.right" timestamp="1586039748935">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1201" height="265" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1583437906031" />
+    <state width="1221" height="265" key="GridCell.Tab.1.right/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586039748935" />
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor" timestamp="1582938483946">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1582938483946" />
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1585781706805">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1586038060256">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1585440130727" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781706805" />
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586038060256" />
     <state x="483" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1583434914340">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
