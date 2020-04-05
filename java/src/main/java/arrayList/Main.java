@@ -82,6 +82,7 @@ public class Main {
             System.out.println(searchItem + " is not in the shopping list");
         }
     }
+    // alternate way to copy array lists
 //    public static void processArrayList() {
 //        ArrayList<String> newArray = new ArrayList<String>();
 //        newArray.addAll(groceryList.getGroceryList());
