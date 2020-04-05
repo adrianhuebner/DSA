@@ -328,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586040204436</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Updated code to work better">
+      <created>1586042254715</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1586042254715</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -349,7 +356,8 @@
     <MESSAGE value="Array Minimum Value search added and Array based README updated" />
     <MESSAGE value="Started on ArrayList grocery store challenge" />
     <MESSAGE value="More methods added, and a Main Class added to run all the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="More methods added, and a Main Class added to run all the code" />
+    <MESSAGE value="Updated code to work better" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code to work better" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="101" key="#Code_Folding" timestamp="1583436419101">
@@ -368,12 +376,12 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1583861298990" />
-    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1586040204308">
+    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1586042254590">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="0" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1585440129502" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781703875" />
-    <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586040204308" />
+    <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586042254590" />
     <state width="1313" height="339" key="GridCell.Tab.0.bottom" timestamp="1586042241041">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
@@ -422,12 +430,12 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1582938483946" />
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1586040205791">
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1586042256960">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1585440130727" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781706805" />
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586040205791" />
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586042256960" />
     <state x="483" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1583434914340">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
