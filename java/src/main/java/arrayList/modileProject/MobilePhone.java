@@ -40,6 +40,10 @@ public class MobilePhone {
         return true;
     }
 
+    public ArrayList<ContactList> getContactList(){
+        return this.contactList;
+    }
+
     private int findContact(ContactList contact){
         return this.contactList.indexOf(contact);
     }
