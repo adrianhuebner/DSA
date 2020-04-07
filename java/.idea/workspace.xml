@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2335d90c-5c96-48d8-811b-ce83d316e7fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrayList/modileProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayList/modileProject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrayList/modileProject/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayList/modileProject/MobilePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/random/QuickFindUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/random/QuickFindUnion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586138633855</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="All methods added and updated">
+      <created>1586210721347</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1586210721347</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -405,7 +411,8 @@
     <MESSAGE value="Got code into ContactList, started creating methods in MobilePhone" />
     <MESSAGE value="Stared working on code for Main Class" />
     <MESSAGE value="Stared working on code for Main Class, switch statement started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stared working on code for Main Class, switch statement started" />
+    <MESSAGE value="All methods added and updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="All methods added and updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="101" key="#Code_Folding" timestamp="1583436419101">
@@ -425,12 +432,12 @@
     </state>
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1583861298990" />
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586127452759" />
-    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1586138633740">
+    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1586210721186">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="0" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1585440129502" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781703875" />
-    <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586138633740" />
+    <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586210721186" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586123472540" />
     <state width="1313" height="339" key="GridCell.Tab.0.bottom" timestamp="1586138642927">
       <screen x="0" y="23" width="1440" height="827" />
@@ -480,12 +487,12 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1582938483946" />
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1586138635108">
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1586210722975">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1585440130727" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781706805" />
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586138635108" />
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586210722975" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586123473904" />
     <state x="483" y="173" width="670" height="677" key="search.everywhere.popup" timestamp="1586136270398">
       <screen x="0" y="23" width="1440" height="827" />
