@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2335d90c-5c96-48d8-811b-ce83d316e7fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/random/isogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/random/isogramTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/random/QuickFindUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/random/QuickFindUnion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/random/RANDOMQUESTIONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/random/RANDOMQUESTIONS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Gradle.isogramTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayList.groceryList.Main" />
       <module name="java.main" />
@@ -87,26 +89,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;linkedlist.LinkedListTest&quot; --scan" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LinkedListTest.kIsInTheMiddle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;linkedlist.LinkedListTest.kIsInTheMiddle&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -161,13 +143,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="isogramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;random.isogramTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.isogramTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.QueueTest" />
         <item itemvalue="Gradle.StackTest" />
         <item itemvalue="Gradle.LinkedListTest" />
-        <item itemvalue="Gradle.LinkedListTest.kIsInTheMiddle" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586210721347</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Quick Union Class code has been added">
+      <created>1586228669408</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1586228669408</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -412,7 +421,8 @@
     <MESSAGE value="Stared working on code for Main Class" />
     <MESSAGE value="Stared working on code for Main Class, switch statement started" />
     <MESSAGE value="All methods added and updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="All methods added and updated" />
+    <MESSAGE value="Quick Union Class code has been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quick Union Class code has been added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="101" key="#Code_Folding" timestamp="1583436419101">
@@ -427,41 +437,50 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="283" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.826@0.23.1440.826" timestamp="1582953805584" />
+    <state x="152" y="123" width="1155" height="626" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586317348685">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="152" y="123" width="1155" height="626" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.827@0.23.1440.827" timestamp="1586317348685" />
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1586127452759">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1583861298990" />
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586127452759" />
-    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1586210721186">
+    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1586228669286">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="0" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1585440129502" />
+    <state x="0" y="38" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1586228669286" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781703875" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586210721186" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586123472540" />
-    <state width="1313" height="339" key="GridCell.Tab.0.bottom" timestamp="1586138642927">
+    <state width="1313" height="339" key="GridCell.Tab.0.bottom" timestamp="1586317406761">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583259558930" />
     <state width="1221" height="244" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583796040104" />
+    <state width="1313" height="339" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1586317406761" />
     <state width="1313" height="339" key="GridCell.Tab.0.bottom/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586138642927" />
-    <state width="1313" height="339" key="GridCell.Tab.0.center" timestamp="1586138642925">
+    <state width="1313" height="339" key="GridCell.Tab.0.center" timestamp="1586317406761">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583259558929" />
     <state width="1221" height="244" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1583796040103" />
+    <state width="1313" height="339" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1586317406761" />
     <state width="1313" height="339" key="GridCell.Tab.0.center/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586138642925" />
-    <state width="1313" height="339" key="GridCell.Tab.0.left" timestamp="1586138642925">
+    <state width="1313" height="339" key="GridCell.Tab.0.left" timestamp="1586317406760">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583259558928" />
     <state width="1221" height="244" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1583796040103" />
+    <state width="1313" height="339" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1586317406760" />
     <state width="1313" height="339" key="GridCell.Tab.0.left/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586138642925" />
-    <state width="1313" height="339" key="GridCell.Tab.0.right" timestamp="1586138642926">
+    <state width="1313" height="339" key="GridCell.Tab.0.right" timestamp="1586317406761">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="668" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583259558929" />
     <state width="1221" height="244" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1583796040103" />
+    <state width="1313" height="339" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1586317406761" />
     <state width="1313" height="339" key="GridCell.Tab.0.right/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586138642926" />
     <state width="1221" height="265" key="GridCell.Tab.1.bottom" timestamp="1586040219682">
       <screen x="0" y="23" width="1440" height="827" />
@@ -487,10 +506,11 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1582938483946" />
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1586210722975">
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1586228670723">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1585440130727" />
+    <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1586228670723" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781706805" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586210722975" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586123473904" />
