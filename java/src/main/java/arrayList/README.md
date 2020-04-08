@@ -28,5 +28,26 @@
         - e.g. no ints, no .get(i), etc
     - MobilePhone should do everything with Contact objects only
         
-    
+## Banking Application (using Autoboxing and Unboxing)
+
+- Create a simple banking application, it needs to have/do the following:
+    - Have a Bank Class
+    - It should have an ArrayList of Branches
+        - Each Branch should have an ArrayList of Customers
+    - Customer class should have an ArrayList of Doubles (transactions)
+    - **Customer**
+        - Name, and ArrayList of doubles
+    - **Branch**
+        - Need to be able to add new customer and initial transaction amount
+        - Also needs to add additional transactions for that customer/branch
+    - **Bank**
+        - Add a new Branch
+        - Add a new Customer to that Branch with initial transaction
+        - Add a transaction for an existing customer for that branch
+        - Show a list of Customers for a particular Branch and optionally a list of their transactions
+    - Demonstrate Autoboxing and Unboxing in code
+        - Hint: Transactions
+    - Add data validation
+        - Check if exists or does not exist    
+        
    
