@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2335d90c-5c96-48d8-811b-ce83d316e7fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrayList/bankingAutobox/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayList/bankingAutobox/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayList/bankingAutobox/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayList/bankingAutobox/Branch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,12 +415,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586389083746</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Customer code started">
+      <created>1586390832502</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1586390832502</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="kthFromEnd challenge finished, test written for it, and whitebaord added" />
     <MESSAGE value="merged list method added, got whiteboard image in, just need to add tests later" />
     <MESSAGE value="Tests added for mergeList method on LinkedList" />
     <MESSAGE value="Started working on Stacks and Queues, got README updated, got Stack implementation done and all tests are passing for Stack" />
@@ -445,7 +451,8 @@
     <MESSAGE value="isogram code added" />
     <MESSAGE value="ArrayList with Autoboxing and Unboxing Readme updated" />
     <MESSAGE value="File Structure added for ArrayList Autoboxing and Unboxing challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Structure added for ArrayList Autoboxing and Unboxing challenge" />
+    <MESSAGE value="Customer code started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer code started" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="101" key="#Code_Folding" timestamp="1583436419101">
@@ -469,13 +476,13 @@
     </state>
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1583861298990" />
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586390793965" />
-    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1586389083623">
+    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1586390832378">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="0" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1585440129502" />
     <state x="0" y="38" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1586317437675" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781703875" />
-    <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586389083623" />
+    <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586390832378" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586123472540" />
     <state width="1313" height="339" key="GridCell.Tab.0.bottom" timestamp="1586335906484">
       <screen x="0" y="23" width="1440" height="827" />
