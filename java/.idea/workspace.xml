@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2335d90c-5c96-48d8-811b-ce83d316e7fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayList/bankingAutobox/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayList/bankingAutobox/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/arrayList/bankingAutobox/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayList/bankingAutobox/Branch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -422,12 +423,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586390832502</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Branch class code added">
+      <created>1586483455551</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1586483455551</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="merged list method added, got whiteboard image in, just need to add tests later" />
     <MESSAGE value="Tests added for mergeList method on LinkedList" />
     <MESSAGE value="Started working on Stacks and Queues, got README updated, got Stack implementation done and all tests are passing for Stack" />
     <MESSAGE value="Got methods written for my Queue data-structure, need to finish tests" />
@@ -452,7 +459,8 @@
     <MESSAGE value="ArrayList with Autoboxing and Unboxing Readme updated" />
     <MESSAGE value="File Structure added for ArrayList Autoboxing and Unboxing challenge" />
     <MESSAGE value="Customer code started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Customer code started" />
+    <MESSAGE value="Branch class code added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Branch class code added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="101" key="#Code_Folding" timestamp="1583436419101">
@@ -471,14 +479,16 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="152" y="123" width="1155" height="626" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.827@0.23.1440.827" timestamp="1586317348685" />
-    <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1586390793965">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="570" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1586483624034">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="570" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586483624034" />
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1583861298990" />
     <state x="570" y="159" key="#com.intellij.ide.util.MemberChooser/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586390793965" />
-    <state x="0" y="38" key="CommitChangelistDialog2" timestamp="1586390832378">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="0" y="16" key="CommitChangelistDialog2" timestamp="1586483455354">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="0" y="16" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586483455354" />
     <state x="0" y="38" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1585440129502" />
     <state x="0" y="38" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1586317437675" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781703875" />
@@ -536,9 +546,10 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1582938483946" />
-    <state x="385" y="176" key="Vcs.Push.Dialog.v2" timestamp="1586389085317">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="385" y="167" key="Vcs.Push.Dialog.v2" timestamp="1586483457721">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="385" y="167" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586483457721" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1585440130727" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1586317441389" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781706805" />
@@ -549,5 +560,16 @@
     </state>
     <state x="483" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1583434914340" />
     <state x="483" y="173" width="670" height="677" key="search.everywhere.popup/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586136270398" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrayList/bankingAutobox/Bank.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
