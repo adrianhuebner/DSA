@@ -12,4 +12,8 @@ public class Main {
         anotherCustomer.setBalance(10000.00);
         System.out.println("Balance for customer " + customer.getName() + " is " + customer.getBalance());
     }
+    // Additional Notes:
+        // This shows how memory is used and allocated within Java
+        // If Java doesn't let us use pointers, in other words we can't actually point to these objects directly, why are we taking about them?
+            // It's important to understand all this before understanding what a linked list is and the advantages that it can give you over an array
 }
