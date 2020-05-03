@@ -2,9 +2,9 @@ package linkedlist.onlineChallenge;
 
 public class Song {
     private String songName;
-    private String songDuration;
+    private double songDuration;
 
-    public Song(String songName, String songDuration) {
+    public Song(String songName, double songDuration) {
         this.songName = songName;
         this.songDuration = songDuration;
     }
@@ -13,7 +13,8 @@ public class Song {
         return songName;
     }
 
-    public String getSongDuration() {
-        return songDuration;
+    @Override
+    public String toString(){
+        return this.songName + ": " + this.songDuration;
     }
 }
