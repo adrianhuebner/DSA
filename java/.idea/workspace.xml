@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2335d90c-5c96-48d8-811b-ce83d316e7fa" name="Default Changelist" comment="changed code so that addInOrder is being used">
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/onlineLearning/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/onlineLearning/Demo.java" afterDir="false" />
+    <list default="true" id="2335d90c-5c96-48d8-811b-ce83d316e7fa" name="Default Changelist" comment="Linked List README updated to reflect information on Online Learning">
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/onlineChallenge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/onlineChallenge/Playlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/onlineChallenge/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/onlineChallenge/Song.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -468,7 +471,35 @@
       <option name="project" value="LOCAL" />
       <updated>1588479887735</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="code added with a Scanner so that you can see what city you are visiting or what city you previously were at">
+      <created>1588480648788</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1588480648788</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Some house cleaning code added to visit, so that we don't get the same city multiple times when using visit method">
+      <created>1588481029298</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1588481029298</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Online linked list challenge project added, with classes that will be needed and a readme that talks about the challenge">
+      <created>1588481679019</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1588481679019</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Linked List README updated to reflect information on Online Learning">
+      <created>1588482004240</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1588482004240</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,10 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="PseudoQueue code written" />
-    <MESSAGE value="Array Minimum Value search added and Array based README updated" />
-    <MESSAGE value="Started on ArrayList grocery store challenge" />
-    <MESSAGE value="More methods added, and a Main Class added to run all the code" />
     <MESSAGE value="Updated code to work better" />
     <MESSAGE value="Zombie code added, for some practice methods that can be created but not needed for this" />
     <MESSAGE value="README updated for new ArrayList challenge" />
@@ -510,7 +537,11 @@
     <MESSAGE value="arrayList added to compare difference between array and linked list" />
     <MESSAGE value="linked list, adding a method that will put the cities in order" />
     <MESSAGE value="changed code so that addInOrder is being used" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed code so that addInOrder is being used" />
+    <MESSAGE value="code added with a Scanner so that you can see what city you are visiting or what city you previously were at" />
+    <MESSAGE value="Some house cleaning code added to visit, so that we don't get the same city multiple times when using visit method" />
+    <MESSAGE value="Online linked list challenge project added, with classes that will be needed and a readme that talks about the challenge" />
+    <MESSAGE value="Linked List README updated to reflect information on Online Learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked List README updated to reflect information on Online Learning" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="101" key="#Code_Folding" timestamp="1583436419101">
@@ -549,35 +580,35 @@
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781703875" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586563666238" />
     <state x="0" y="38" key="CommitChangelistDialog2/1440.-95.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1586123472540" />
-    <state width="1238" height="207" key="GridCell.Tab.0.bottom" timestamp="1588480564828">
+    <state width="1238" height="207" key="GridCell.Tab.0.bottom" timestamp="1588488817359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="668" height="387" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586835233523" />
-    <state width="1238" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588480564828" />
+    <state width="1238" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588488817359" />
     <state width="1221" height="244" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583796040104" />
     <state width="1313" height="339" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1586335906484" />
     <state width="1313" height="339" key="GridCell.Tab.0.bottom/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586138642927" />
-    <state width="1238" height="207" key="GridCell.Tab.0.center" timestamp="1588480564828">
+    <state width="1238" height="207" key="GridCell.Tab.0.center" timestamp="1588488817359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="668" height="387" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586835233521" />
-    <state width="1238" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588480564828" />
+    <state width="1238" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588488817359" />
     <state width="1221" height="244" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1583796040103" />
     <state width="1313" height="339" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1586335906483" />
     <state width="1313" height="339" key="GridCell.Tab.0.center/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586138642925" />
-    <state width="1238" height="207" key="GridCell.Tab.0.left" timestamp="1588480564828">
+    <state width="1238" height="207" key="GridCell.Tab.0.left" timestamp="1588488817359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="668" height="387" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586835233520" />
-    <state width="1238" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588480564828" />
+    <state width="1238" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588488817359" />
     <state width="1221" height="244" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1583796040103" />
     <state width="1313" height="339" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1586335906482" />
     <state width="1313" height="339" key="GridCell.Tab.0.left/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586138642925" />
-    <state width="1238" height="207" key="GridCell.Tab.0.right" timestamp="1588480564828">
+    <state width="1238" height="207" key="GridCell.Tab.0.right" timestamp="1588488817359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="668" height="387" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586835233522" />
-    <state width="1238" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588480564828" />
+    <state width="1238" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588488817359" />
     <state width="1221" height="244" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1583796040103" />
     <state width="1313" height="339" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1586335906484" />
     <state width="1313" height="339" key="GridCell.Tab.0.right/1440.-95.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1586138642926" />
@@ -605,11 +636,11 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="416" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1582938483946" />
-    <state x="411" y="152" key="Vcs.Push.Dialog.v2" timestamp="1588479888834">
+    <state x="411" y="152" key="Vcs.Push.Dialog.v2" timestamp="1588482005442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="385" y="167" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586483457721" />
-    <state x="411" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588479888834" />
+    <state x="411" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588482005442" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1585440130727" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1586317441389" />
     <state x="385" y="176" key="Vcs.Push.Dialog.v2/1440.-95.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1585781706805" />
