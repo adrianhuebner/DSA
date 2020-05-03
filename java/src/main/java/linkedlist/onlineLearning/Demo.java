@@ -8,22 +8,17 @@ public class Demo {
     public static void main(String[] args) {
         // this will be using built-in LinkedList and methods unlike my LinkedList class that I write the methods
         LinkedList<String> placesToVisit = new LinkedList<String>();
-        placesToVisit.add("Sydney");
-        placesToVisit.add("Melbourne");
-        placesToVisit.add("Brisbane");
-        placesToVisit.add("Perth");
-        placesToVisit.add("Canberra");
-        placesToVisit.add("Adelaide");
-        placesToVisit.add("Darwin");
-
+        addInOrder(placesToVisit, "Sydney");
+        addInOrder(placesToVisit, "Melbourne");
+        addInOrder(placesToVisit, "Brisbane");
+        addInOrder(placesToVisit, "Perth");
+        addInOrder(placesToVisit, "Canberra");
+        addInOrder(placesToVisit, "Adelaide");
+        addInOrder(placesToVisit, "Darwin");
         printList(placesToVisit);
 
-        placesToVisit.add(1, "Alice Springs");
-            // This has happened automatically, Alice Springs will be added after Sydney
-        printList(placesToVisit);
-
-        placesToVisit.remove(4);
-            // This happens automatically again, so Perth will be removed from the linked list
+        addInOrder(placesToVisit, "Alice Springs");
+        addInOrder(placesToVisit, "Darwin");
         printList(placesToVisit);
     }
     private static void printList(LinkedList<String> linkedList){
@@ -39,6 +34,10 @@ public class Demo {
 
     private static boolean addInOrder(LinkedList<String> linkedList, String newCity){
         ListIterator<String> stringListIterator = linkedList.listIterator();
+            // NOTE:
+                // The first time that you create the list iterator, that's not actually yet pointing to the first record
+                // The use of the .next() to go to the first record
+                // This is just a set up
         while(stringListIterator.hasNext()){
             int comparison = stringListIterator.next().compareTo(newCity);
             if(comparison == 0){
