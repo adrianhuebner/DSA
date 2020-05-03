@@ -53,3 +53,15 @@ Takes in two linked lists, zip the two linked lists together into one so that th
 **Whiteboard for the mergeList()**
 
 ![Whiteboard for mergeList](../assets/mergedList.jpeg)
+
+## Other Challenges for Linked List
+
+### Online Learning Project
+
+- Main Class compares the differences (with notes added) between an ArrayList and a LinkedList
+- Demo Class creates a vacation to Australia itinerary that is in alphabetic order with the ability to see where you are and what you previously visitied
+
+### Online Challenge Project
+
+- More information about this in the README which is located here: [onlineChallenge README](onlineChallenge/onlineChallenge.md)
+
