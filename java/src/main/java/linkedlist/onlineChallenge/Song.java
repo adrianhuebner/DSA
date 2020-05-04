@@ -9,12 +9,15 @@ public class Song {
         this.songDuration = songDuration;
     }
 
+    public static Song newSong(String songName, double songDuration){
+        return (new Song(songName, songDuration));
+    }
+
     public String getSongName() {
         return songName;
     }
 
-    @Override
-    public String toString(){
-        return this.songName + ": " + this.songDuration;
+    public double getSongDuration(){
+        return songDuration;
     }
 }
