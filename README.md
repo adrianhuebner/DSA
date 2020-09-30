@@ -2,12 +2,12 @@
 
 ## Author: Adrian Huebner
 
-This is code challenges, from school Code Fellows and other resources, all written in Java
+This is code challenges, from school Code Fellows and other resources, all written in Java and Javascript
 
-### Types of Challenges 
+### Types of Challenges for Java
 
 [Array Challenges](./java/src/main/java/array)  
-[ArrayList Challenges](./java/src/main/java/arrayList)   
+[ArrayList Challenges](./java/src/main/java/arrayList)  
 [Graph Challenges](./java/src/main/java/graph)  
 [Hashtable Challenges](./java/src/main/java/hashtable)  
 [Linked List Challenges](./java/src/main/java/linkedlist)  
@@ -16,6 +16,16 @@ This is code challenges, from school Code Fellows and other resources, all writt
 [Stacks and Queues Challenges](./java/src/main/java/stacksandqueues)  
 [Tree Challenges](./java/src/main/java/tree)  
 [Utilities Challenges](./java/src/main/java/utilities)
+
+### Types of Challenges for Javascript
+
+[Array Challenges](./javascript/array)  
+[Graph Challenges](./javascript/graph)  
+[Hashtable Challenges](./javascript/hashtable)  
+[Linked List Challenges](./javascript/linkedlist)  
+[Sorting Challenges](./javascript/sort)  
+[Stacks and Queues Challenges](./javascript/stacksandqueues)  
+[Tree Challenges](./javascript/tree)
 
 ### Other Code Challenge Sites I use
 
