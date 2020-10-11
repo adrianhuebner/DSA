@@ -27,6 +27,10 @@ This is code challenges, from school Code Fellows and other resources, all writt
 [Stacks and Queues Challenges](./javascript/stacksandqueues)  
 [Tree Challenges](./javascript/tree)
 
+### Journal
+
+In this [folder](./data-structure-notes) live all my notes on different data structures that I am studying
+
 ### Other Code Challenge Sites I use
 
 [CodeWars](https://www.codewars.com/users/adrian_elizabeth?refreshed=true)  
