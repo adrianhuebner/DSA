@@ -12,7 +12,7 @@ Good code should have two different things that it can be described as:
 
 ## Cheat Sheets
 
-**Big O Cheat Sheet**  
+**Big O Cheat Sheet**
 
 ![Big-O Cheat Sheet](./assets/big0cheatsheet.webp)
 

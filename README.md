@@ -4,6 +4,10 @@
 
 This is code challenges, from school Code Fellows and other resources, all written in Java and Javascript
 
+### 301-codechallenges
+
+This is [folder](./301-codechallenges) that contains all of my 301 level based code challenges that I was given during my time at Code Fellows
+
 ### Types of Challenges for Java
 
 [Array Challenges](./java/src/main/java/array)  
