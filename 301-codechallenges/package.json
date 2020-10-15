@@ -1,0 +1,15 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "code challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "watch": "jest --watchAll"
+  },
+  "author": "Adrian Huebner",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.4.2"
+  }
+}
