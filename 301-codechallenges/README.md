@@ -10,4 +10,6 @@ This is all of the challenges given to me as a student when I was taking Code Fe
 
   3. **sort**: Learning how to use array.sort()
 
+  4. **regex**: Learning how to use regex
+
   
