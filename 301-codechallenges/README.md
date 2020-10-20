@@ -19,3 +19,6 @@ This is all of the challenges given to me as a student when I was taking Code Fe
   7. **array.map()**: Learning how to use array.map()
 
   8. **array.filter()**: Learning how to use array.filter()
+
+  9. **array.reduce()**: Learning how to use array.reduce()
+  
