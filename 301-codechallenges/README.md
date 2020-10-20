@@ -14,4 +14,4 @@ This is all of the challenges given to me as a student when I was taking Code Fe
 
   5. **string methods**: Learning how to use Array and String Methods: `splice()`, `slice()`, `split()`, and `join()`
 
-  
+  6. **object-iteration**: Learning how to iterate through objects
