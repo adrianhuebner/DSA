@@ -23,4 +23,11 @@ This is all of the challenges given to me as a student when I was taking Code Fe
   9. **array.reduce()**: Learning how to use array.reduce()
   
   10. **chaining-methods**: Learning how to use multiple built in methods together
-  
+
+## TESTING
+
+Run the following command in the terminal: `npm test`  
+
+Tests can also be run on an individual basis, all the challenges have a similar name, the only thing that changes is the number. For example:  
+
+To run Challenge 01 run the command in the terminal: `npm test challenges-01.test.js`
