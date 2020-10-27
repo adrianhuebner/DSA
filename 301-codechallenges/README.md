@@ -22,3 +22,5 @@ This is all of the challenges given to me as a student when I was taking Code Fe
 
   9. **array.reduce()**: Learning how to use array.reduce()
   
+  10. **chaining-methods**: Learning how to use multiple built in methods together
+  
