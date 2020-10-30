@@ -24,6 +24,9 @@ This is all of the challenges given to me as a student when I was taking Code Fe
   
   10. **chaining-methods**: Learning how to use multiple built in methods together
 
+  11. **regex-two**: Learning how to use regex again
+
+
 ## TESTING
 
 Run the following command in the terminal: `npm test`  
