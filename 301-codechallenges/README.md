@@ -26,6 +26,8 @@ This is all of the challenges given to me as a student when I was taking Code Fe
 
   11. **[regex-two](./regex-two/challenges-11.test.js)**: Learning how to use regex again
 
+  12.**[array of arrays](./array-of-arrays/challennges-12.test.js)**: Learning how to travese an array within an array
+
 ## TESTING
 
 Run the following command in the terminal: `npm test`  
