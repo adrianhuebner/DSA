@@ -8,6 +8,11 @@ This is code challenges, from school Code Fellows and other resources, all writt
 
 This is [folder](./301-codechallenges) that contains all of my 301 level based code challenges that I was given during my time at Code Fellows
 
+**Information**:
+
+- Notes come from Udemy Course: [Master the Coding Interview](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
+- Notes also come from teachings at [Code Fellows](https://www.codefellows.org/)
+
 ### Types of Challenges for Java
 
 [Array Challenges](./java/src/main/java/array)  
